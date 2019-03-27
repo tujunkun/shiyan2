@@ -1,11 +1,6 @@
 代码:
 
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/linearLayout"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+
 
     <Button
         android:id="@+id/textView"
@@ -93,21 +88,9 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
-</android.support.constraint.ConstraintLayout>
-
-结果:
 
 
-![image](https://github.com/tujunkun/shiyan2/blob/master/constraintLayout.png)
 
-代码:<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:padding="5dp"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -208,15 +191,10 @@
             android:layout_weight="1"
             android:text="four,four"/>
     </LinearLayout>
-</LinearLayout>
 
 
-结果:
 
 
-![image](https://github.com/tujunkun/shiyan2/blob/master/linearLayout.png)
-
-代码:
 
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -282,7 +260,16 @@
 </TableLayout>
 
 
-结果:
+
+
+![image](https://github.com/tujunkun/shiyan2/blob/master/linearLayout.png)
+
+
+
+![image](https://github.com/tujunkun/shiyan2/blob/master/constraintLayout.png)
+
+
+
 
 
 ![image](https://github.com/tujunkun/shiyan2/blob/master/tableLayout.png)

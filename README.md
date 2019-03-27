@@ -193,6 +193,8 @@
         app:layout_constraintStart_toStartOf="parent" />
 
 
+
+
     <TableRow>
         <TextView
             android:text="open..."
